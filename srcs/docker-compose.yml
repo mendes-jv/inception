@@ -70,13 +70,13 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: /home/jovicto2/data/mysql
+      device: ${HOME}/data/mysql
   wp:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: /home/jovicto2/data/wordpress
+      device: ${HOME}/data/wordpress
 
 ####### NETWORKS ########
 networks:
