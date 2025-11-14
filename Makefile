@@ -1,6 +1,6 @@
 DOCKER_COMPOSE=docker compose -f $(DOCKER_COMPOSE_FILE)
 DOCKER_COMPOSE_FILE = ./srcs/docker-compose.yml
-PROJECT_ENV_URL = https://raw.githubusercontent.com/jovicto2/inception/srcs
+PROJECT_ENV_URL = https://raw.githubusercontent.com/mendes-jv/inception/srcs
 DOMAIN_NAME = jovicto2.42.fr
 
 all: install config build
